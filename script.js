@@ -5,16 +5,16 @@ const caixaResultado = document.querySelector('.caixa-resultado');
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
-        alternativas:["Alternativa 1","Alternativa 2"]
+        enunciado: "voce sabe como usar inteligencia artificial",
+        alternativas:["SIM","NAO"]
     },
     {
-        enunciado: "Pergunta 2",
-        alternativas:["Alternativa 1","Alternativa 2"]
+        enunciado: "A INTELIGENCI ARTIFICIAL é boa para educaçao",
+        alternativas:["sim","nao"]
     },
     {
-        enunciado: "Pergunta 3",
-        alternativas:["Alternativa 1","Alternativa 2"]
+        enunciado: "voce sabe como funciona uma IA",
+        alternativas:["sim","nao"]
     }
 ]
 
@@ -22,9 +22,15 @@ let atual = 0;
 let perguntaAtual;
 
 function mostraPergunta(){
-    perguntaAtual = perguntas(atual);
+    perguntaAtual = perguntas[posiçao];
     caixaPergunta.textContent = perguntaAtual.enunciado;
-    
+    mostraALternativas();
 }
 
+function mostraALternativas()[
+    for(const alternativa of perguntaAtual . alternativa)[
+        const botaoalternativa = document.createELement("button");
+        botaoalternativa.textContent = alternativa
+    ]
+]
 
