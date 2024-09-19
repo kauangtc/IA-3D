@@ -6,16 +6,16 @@ const caixaResultado = document.querySelector('.caixa-resultado');
 const perguntas = [
     {
         enunciado: "Você gosta da ideia de Inteligência Artificial?",
-       alternativas:["Sim","Não"]
-    },
-    {
-        enunciado: "voce achaque a IA é importante",
         alternativas:["Sim","Não"]
     },
     {
-        enunciado: "voce ja usou IA",
-      alternativas:["Sim","Não"]
+        enunciado: "Pergunta 2",
+        alternativas:["Alternativa 1","Alternativa 2"]
     },
+    {
+        enunciado: "Pergunta 3",
+        alternativas:["Alternativa 1","Alternativa 2"]
+    }
 ]
 
 let posicao = 0;
